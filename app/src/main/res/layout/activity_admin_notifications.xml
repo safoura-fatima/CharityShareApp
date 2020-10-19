@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorBG"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            xmlns:app="http://schemas.android.com/tools"
+            android:id="@+id/toolbar"
+            android:elevation="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@android:color/white"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:fontFamily="sans-serif-light"
+                android:text="Send Notification"
+                android:textSize="28dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <!--  Title Label -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_title_container"
+            android:theme="@style/EditTextThemeInApp"
+            android:hint="Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <EditText
+                android:id="@+id/input_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="100" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Message Label -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_message_container"
+            android:theme="@style/EditTextThemeInApp"
+            android:hint="Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <EditText
+                android:id="@+id/input_message"
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_send_notification"
+            android:text="Send To All Users"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</ScrollView>

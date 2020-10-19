@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390568499938",
+    "firebase_url": "https://charityshareapp-bb514.firebaseio.com",
+    "project_id": "charityshareapp-bb514",
+    "storage_bucket": "charityshareapp-bb514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390568499938:android:8f4340e73ebf174b745cbb",
+        "android_client_info": {
+          "package_name": "com.example.charityshareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390568499938-bndo4v481qgvfm7dg7j04mm2sunn6dj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChtGKcawpgf3HBX8AdZNpSXzFnMpiTKcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390568499938-bndo4v481qgvfm7dg7j04mm2sunn6dj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

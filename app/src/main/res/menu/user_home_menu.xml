@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_create_post"
+        android:orderInCategory="5"
+        android:title="Create Post"
+        android:icon="@drawable/add"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="5"
+        android:title="Edit Profile"
+        android:icon="@drawable/logout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="9"
+        android:title="Log Out"
+        android:icon="@drawable/logout"
+        app:showAsAction="never"/>
+</menu>
